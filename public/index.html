@@ -1,14 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Static site example for Gleis</title>
-  <link rel="stylesheet" href="/assets/stylesheets/site.css" type="text/css" media="screen" charset="utf-8">
-  <script src="/assets/javascripts/site.js" type="text/javascript" charset="utf-8"></script>
+  <link rel="stylesheet" href="/assets/stylesheets/site.css" type="text/css" media="screen">
+  <script src="/assets/javascripts/site.js"></script>
 </head>
 
 <body>
   <h1 id="fadein">Hello static World from Gleis!</h1>
+  <p>Feel free to re-use the structure of this simple static website as an example
+    in order to build your own static site for the <a href="https://gleis.cloud">
+    Gleis Platform as a Service</a>.
+   </p>
+   <p>The <code>public</code> directory contains the root of your static site
+     and the <code>assets</code> sub-directory is used to store your static
+     assets such as images. The whole directory tree looks like this:
+   </p>
+     <ul>
+       <li>public</li>
+       <li>
+         <ul>
+           <li>assets</li>
+           <li>
+             <ul>
+               <li>images</li>
+               <li>javascripts</li>
+               <li>stylesheets</li>
+             </ul>
+           </li>
+         </ul>
+        </li>
+     </ul>
+   <p>
+     You will find more details on how to deploy your static site on the
+     <a href="https://github.com/towards/static-example">GitHub</a> page of this
+     example static site.
+   </p>
   <img src="/assets/images/sample.jpg" title="Sample image asset">
 </body>
 </html>
