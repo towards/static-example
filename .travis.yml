@@ -1,0 +1,11 @@
+deploy:
+  provider: gleis
+  edge:
+    source: brigriffin/dpl
+    branch: gleis-provider
+  on:
+    branch: master
+  username: travis@towards.ch
+  password:
+    secure: IUFymOcgrqyJ6HsG0zY1B+GOe8tj8wScJORYQJJVf6zVh5/MOupAGS40+0Ah2e3EMJOv4GLOp2AsyIE/btNUHkljwKhLX9NzaK9QXaaBJHmRpcL+ag53LnR5k15P2LzwEhtvwn5Eez3PDfhqG/1VXBSCGmrH0V7qlFxjnKUDA5ZpDC6jGQowNfjzp4/ubXXZkBY7QTf2jdwULXuguxNQnDc0oMGv0oQMSLvPDDE4Ch1uoywNbtfguBS1cYYBJyCiAsYmYSy6vZtm3eEak1xms+1y7yiuipahYUgA1Rc36W/eKwOsLfgenHinlq95w2On1P3//slvSSna4wJnEEBTLZxb5Jsx9h8azd6LljUqcNWyqIs4xDPLtlfczFQQ0IFfs6oubMVT7FfIAgcHtSFyARkfPLIIFeN+1+h50rXU4OF16pvCSjYTm7+Sta8fKk+wvpNiXNcWe1hyh8qGsegYeGf+zbPXl1e+/Nk+rCYncckZXHk4P49ViIQahzZ9Xtjg/wYDtd2sWsHo4UtaF2g+qzDjqJcbvggJ2p3VrliOWS42J/DOORktZO80aGAq7Vi5GzmHwMr2DRV49Z6SB5M8NtHaUGvGnI5QGQ00UnEBk/5vfDG5ZCYsKExuuA1JLnYqxUJQMrdYB8iVpdaCcrSFumVD0d1DwXRbv2dLOkC1Syo=
+  app: static-example
